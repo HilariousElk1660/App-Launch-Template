@@ -41,27 +41,27 @@ html {
 
 .The-App{
   line-height: 1.5;
-  margin-top: 78px;
+  margin-top: 66px;
   margin-bottom: 10px;
-  font-size: 86px;
+  font-size: 63.8px;
   font-weight: 700;
-  margin-left: 20px;
+  margin-left: 16px;
 }
 
 .Buy-it{
   line-height: 1.5;
   color: var(--green);
-  margin-left: 20px;
-  font-size: 65px;
+  margin-left: 16px;
+  font-size: 48px;
 
 }
 
 .introduction{
   line-height: 1.5;
-  margin-top: 20px;
+  margin-top: 15px;
   width: 66%;
-  font-size: 22px;
-  margin-left: 20px;
+  font-size: 16px;
+  margin-left: 16px;
 }
 
 .Available{
@@ -70,19 +70,19 @@ html {
   font-size: 500000000%;
   height: 8%;
   width: 65%;
-  font-size: 21px;
+  font-size: 16px;
   margin-left: 20px;
 }
 
 .intro{
   line-height: 1.5;
-  font-size: 30px;
+  font-size: 24px;
 }
 
 .Download{
   border: 1px solid #f1f1f1;
   line-height: 1.5;
-  font-size: 21px;
+  font-size: 16px;
   width: 17.9%;
   height: 8%;
   margin-top: 50px;
@@ -109,14 +109,14 @@ html {
 
 .icons{
   margin-top: -3.9%;
-  margin-left: 8.5%;
+  margin-left: 9.3%;
   width: 10%;
-  font-size: 32px;
+  font-size: 25px;
   letter-spacing: -1px;
 }
 
 .picture{
-  margin-left: 73%;
-  margin-top: -620px;
+  margin-left: 74%;
+  margin-top: -480px;
   width: 24.5%;
 }
