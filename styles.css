@@ -9,10 +9,11 @@ body,
 html {
   line-height: 1.5;
   box-sizing: border-box;
+  background-color: black;
   height: 100%;
 }
 
-/* Consistent Colors */
+/* Consistent Styles */
 :root {
     --green: #4CAF50;
     --dark-blue: #2196F3;
@@ -22,7 +23,7 @@ html {
     --yellow: #ffc107;
     --pink: #e91e63;
     --grey: #757575;
-    --sand: #fdf5f7;
+    --sand: #
 }
 
 /* Home Section */
@@ -31,92 +32,3 @@ html {
   max-width: 100%;
 }
 
-/* App Section */
-
-.app{
-  width: 100%;
-  height: 85%;
-  font-size: 40px;
-}
-
-.The-App{
-  line-height: 1.5;
-  margin-top: 66px;
-  margin-bottom: 10px;
-  font-size: 63.8px;
-  font-weight: 700;
-  margin-left: 16px;
-}
-
-.Buy-it{
-  line-height: 1.5;
-  color: var(--green);
-  margin-left: 16px;
-  font-size: 48px;
-
-}
-
-.introduction{
-  line-height: 1.5;
-  margin-top: 15px;
-  width: 66%;
-  font-size: 16px;
-  margin-left: 16px;
-}
-
-.Available{
-  line-height: 1.5;
-  margin-top: 50px;
-  font-size: 500000000%;
-  height: 8%;
-  width: 65%;
-  font-size: 16px;
-  margin-left: 20px;
-}
-
-.intro{
-  line-height: 1.5;
-  font-size: 24px;
-}
-
-.Download{
-  border: 1px solid #f1f1f1;
-  line-height: 1.5;
-  font-size: 16px;
-  width: 17.9%;
-  height: 8%;
-  margin-top: 50px;
-  margin-left: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-.fa-android{
-  color: var(--green);
-}
-
-.fa-windows{
-  color: var(--dark-blue);
-}
-
-.img-app{
-    width: 100%;
-  }
-
-#icon{
-  letter-spacing: 5px;
-}
-
-.icons{
-  margin-top: -3.9%;
-  margin-left: 9.3%;
-  width: 10%;
-  font-size: 25px;
-  letter-spacing: -1px;
-}
-
-.picture{
-  margin-left: 74%;
-  margin-top: -480px;
-  width: 24.5%;
-}
