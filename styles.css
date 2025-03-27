@@ -96,8 +96,21 @@ hr {
   cursor: pointer;
 }
 
+.white__icon{
+  color: var(--white) !important;
+}
+
 .download__section:hover {
   opacity: 1;
+}
+
+.download__section button:hover {
+  .white__icon {
+    color: var(--black) !important;
+  }
+
+  background-color: #ccc;
+  color: var(--black) !important;
 }
 
 .slider__button {
@@ -132,6 +145,10 @@ hr {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
   color: var(--white);
+}
+
+.black__icon{
+  color: var(--black) !important;
 }
 
 .popup__container {
@@ -349,6 +366,7 @@ hr {
 
 .app{
   width: 100%;
+  background-color: var(--white);
   height: 85%;
   display: flow-root;
   font-size: 40px;
@@ -439,7 +457,7 @@ hr {
 
 .heading{
   line-height: 1.5;
-  padding-top: 75px;
+  padding: 75px 0;
   display: block;
   text-align: center;
   color: #fff;
