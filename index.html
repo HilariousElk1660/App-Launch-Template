@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>App Launch</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Poppins"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-  </head>
-  <body>
-    <!-- Home Section -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>App Launch</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+  <!-- Home Section -->
     <header>
       <div>
         <img src="./Images/app4.jpg" >
@@ -45,11 +40,29 @@
           <p class="popup__input__p"><input type="text" placeholder="Enter e-mail"></p>
           <button type="button" class="fake__download__button red" onclick="closePopup()">Fake Download</button>
         </div>
-      </div>
-    </div>
-
+    
     <!-- App Section -->
-    <div class="app"></div>
+
+    <div class="app">
+      <h1 class="The-App">The App</h1>
+      <h2 class="Buy-it">Why buy it?</h2>
+      <p class="introduction"><span class="intro">Take photos like a pro.</span> You should buy this app because lorem
+        ipsum consectetur adipiscing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <button class="Download"><i class="fa fa-download" id="icon"></i>Download Application</button>
+      <p class="Available">Available for</p>
+
+      <div class="icons">
+        <i class="fa fa-android" class="android"></i>
+        <i class="fa fa-apple"></i>
+        <i class="fa fa-windows"></i>
+      </div>
+
+      <div class="picture">
+        <img src="Images/img_app.jpg" class="img-app">
+      </div>
 
     <!-- Clarity Section -->
     <div class="clarity">
@@ -111,7 +124,7 @@
 
     <!-- Footer Section -->
     <footer></footer>
-
+  
     <script src="main.js"></script>
   </body>
 </html>
