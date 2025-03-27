@@ -16,6 +16,7 @@ html {
 }
 
 /* Consistent Styles */
+
 :root {
   --green: #4caf50;
   --dark-blue: #2196f3;
@@ -26,9 +27,12 @@ html {
   --pink: #e91e63;
   --grey: #757575;
   --gray: #f1f1f1;
+  --dark-gray: #616161;
   --sand: #fdf5e6;
   --black: #000;
   --white: #fff;
+  --purple: #3f51b5;
+  --red: #f44336;
 }
 
 /* Home Section */
@@ -88,7 +92,7 @@ hr {
   width: 100%;
   border: none;
   border-radius: 4px;
-  background-color: var(--green);
+  background-color: var(--purple);
   cursor: pointer;
 }
 
@@ -114,13 +118,88 @@ hr {
   color: var(--black);
 }
 
+/* PopUp */
+
+.popup {
+  animation: opac 0.8s;
+  padding-top: 100px;
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: var(--white);
+}
+
+.popup__container {
+  padding: 32px;
+  color: var(--black);
+  background-color: var(--white);
+  margin: 0 auto;
+  width: 900px;
+  outline: 0;
+}
+
+.popup__content {
+  color: var(--black);
+  background-color: var(--white);
+  padding: 0.01em 16px;
+}
+
+.close {
+  background-color: transparent;
+  float: right;
+  font-size: 24px !important;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.popup__main__heading {
+  letter-spacing: 4px;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.popup__para__text,
+.popup__input__p {
+  font-size: 16px;
+  margin: 16px 0;
+}
+
+.popup__content fa {
+  font-size: 18px;
+}
+
+.popup__content input {
+  border: 1px solid #ccc;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 0;
+  font: inherit;
+}
+.fake__download__button {
+  padding: 12px 24px;
+  margin: 0 0 16px;
+  display: block;
+  width: 100%;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
 /* Clarity Section */
 
 .clarity {
   color: var(--black);
   background-color: var(--gray);
   padding: 64px 0;
-  display: flex;
+  display: flow-root;
 }
 
 .clarity__content {
@@ -130,6 +209,138 @@ hr {
 .left__img {
   padding: 0 8px;
   float: left;
-  width:335px;
+  width: 33%;
   height: 471px;
+}
+
+.left__img img {
+  filter: grayscale(75%);
+}
+
+.right__content {
+  padding: 0 8px;
+  width: 67%;
+  float: left;
+}
+
+.main__heading {
+  font-size: 64px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.sub__heading {
+  color: var(--red);
+  font-size: 48px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.set__apart {
+  font-size: 24px;
+}
+
+.clarity__para__text {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Pricing Section */
+
+.pricing {
+  padding: 64px 0;
+  background-color: var(--white);
+  color: var(--black);
+  text-align: center;
+  display: flow-root;
+}
+
+.pricing__heading {
+  font-size: 64px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.pricing__para__text {
+  font-size: 18px;
+  margin: 18px 0;
+}
+
+.price__list__container {
+  margin: 64px 0 0;
+  padding: 0 8px;
+}
+
+.side-1 {
+  float: left;
+  width: 50%;
+  padding: 0 8px;
+  margin: 16px 0;
+}
+
+.price__side {
+  background-color: var(--white);
+  color: var(--black);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.price__side:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.price__side li {
+  padding: 16px;
+  font-size: 16px;
+  border-bottom: 1px solid #ddd;
+  list-style-type: none;
+  text-align: center;
+}
+
+.price__side li:last-of-type {
+  border-bottom: none;
+  background-color: var(--gray);
+}
+
+.list__button {
+  padding: 24px 16px !important;
+  border-bottom: none;
+}
+
+.button__sign__up {
+  background-color: var(--black);
+  color: var(--white);
+  border: none;
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.button__sign__up:hover {
+  background-color: #ccc !important;
+  color: var(--black);
+}
+
+.price__side .price__items__heading {
+  padding: 32px 16px;
+  color: var(--white) !important;
+  font-size: 24px;
+  background-color: var(--dark-gray);
+}
+
+.red {
+  background-color: var(--red) !important;
+  color: var(--white);
+}
+
+.price__text {
+  color: var(--white);
+  font-size: 24px;
+  margin: 10px 0;
+  padding: 16px 0;
+}
+
+.price__items h2 {
+  margin: 10px 0;
+  font-size: 30px;
+  font-weight: 400;
+  opacity: 0.6;
 }
